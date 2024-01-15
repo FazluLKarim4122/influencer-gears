@@ -281,6 +281,7 @@ footer .features-container .footer-intro h4{
     color: #FFF;
 font-size: 1.5rem;
 font-weight: 700;
+margin-bottom: 1px;
 }
 
 footer .features-container .footer-intro h6{
@@ -288,6 +289,8 @@ footer .features-container .footer-intro h6{
 font-family: Manrope;
 font-size: 14px;
 font-weight: 700;
+margin-top: 2px;
+
 }
 
 
