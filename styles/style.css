@@ -37,9 +37,10 @@ margin-top: 16px;
 
 /* header section started */
 header {
-    margin-left: 120px;
-    margin-right: 120px;
+    /* margin-left: 120px; */
+    /* margin-right: 120px; */
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 nav {
@@ -72,7 +73,7 @@ font-weight: 600;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url('../images/Circle\ design.svg');
+    background-image: url('../images/Circle\ design.svg') ;
     background-repeat: no-repeat;
     background-position: top right;
     
@@ -86,37 +87,45 @@ gap: 8px;
 align-items: center;
 }
 
+.banner-image{
+    /* max-width: 1400px;
+    max-height: 1400px; */
+    
+}
+
 /* banner section ended */
 
 /*  main section started  */
 
 main{
-    margin-top: 69px;
+    /* margin-top: 69px; */
     
     max-width: 1440px;
-    
+    margin: 70px auto;
 }
 
 .e-commerce{
-    /* margin-top: 80px; */
-    padding-top: 90px;
+    margin-top: 150px;
+    /* padding-top: 90px; */
     margin-left: 165px;
     margin-right: 165px;
-    
+    border: 1px solid ghostwhite;
+
     
 }
 
-.e-commerce hr{
-    border-color: ghostwhite;
-}
+
 
 .e-commerce-logo{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    gap: 60px;
     /* border: 2px solid #e0e0e0; */
-    border: 1px solid ghostwhite;
+    /* border: 1px solid ghostwhite; */
     /* width: 14px; */
+    padding-top: 40px;
+    padding-bottom: 40px;
 
 }
 
@@ -201,7 +210,7 @@ margin-top: 1px;
 .see-more {
     display: flex;
     justify-content: right;
-    
+    margin-top: 50px;
 }
 
 .see-more a{
@@ -277,14 +286,14 @@ footer{
     padding-bottom: 50px;
 }
 
-footer .features-container .footer-intro h4{
+.f-title{
     color: #FFF;
 font-size: 1.5rem;
 font-weight: 700;
 margin-bottom: 1px;
 }
 
-footer .features-container .footer-intro h6{
+.f-copyright{
     color: #D9DBE1;
 font-family: Manrope;
 font-size: 14px;
