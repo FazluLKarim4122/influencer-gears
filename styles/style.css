@@ -4,6 +4,7 @@
 
 * {
     font-family: 'Poppins', sans-serif;
+    
 }
 
 .shared-title{
@@ -29,7 +30,7 @@ border-radius: 41px;
 background-color: #E02C6D;
 border: none;
 margin-top: 16px;
-padding: 24px 10px;
+
 
 }
 
@@ -38,6 +39,7 @@ padding: 24px 10px;
 header {
     margin-left: 120px;
     margin-right: 120px;
+    max-width: 1440px;
 }
 
 nav {
@@ -73,9 +75,15 @@ font-weight: 600;
     background-image: url('../images/Circle\ design.svg');
     background-repeat: no-repeat;
     background-position: top right;
+    
 }
 #banner-button{
-    width: 45%;
+    /* width: 45%; */
+    display: inline-flex;
+padding: 10px 24px;
+align-items: flex-start;
+gap: 8px;
+align-items: center;
 }
 
 /* banner section ended */
@@ -84,13 +92,16 @@ font-weight: 600;
 
 main{
     margin-top: 69px;
-    margin-left: 165px;
-    margin-right: 165px;
+    
+    max-width: 1440px;
+    
 }
 
 .e-commerce{
     /* margin-top: 80px; */
     padding-top: 90px;
+    margin-left: 165px;
+    margin-right: 165px;
     
     
 }
@@ -113,8 +124,10 @@ main{
 
 .collection-container{
     margin-top: 100px;
-    margin-left: 129px;
-    margin-right: 129px;
+    margin-left: 197px;
+    margin-right: 197px;
+    max-width: 1440px;
+    
 }
 
 .collection-header{
@@ -196,4 +209,92 @@ margin-top: 1px;
     color: rgba(224, 44, 109, 0.87);
 font-weight: 700;
 
+}
+
+/* features container  */
+.features-container{
+    margin-left: 165px;
+    margin-right: 165px;
+    margin-top: 100px;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 16px; */
+    
+}
+
+.features-image{
+    width: 80%;
+}
+
+.features{
+    margin-left: 30px;
+}
+.features-title{
+    color: #0A0826;
+font-size: 2.375rem;
+font-weight: 700;
+
+}
+
+.features-description{
+    color: #6C6C6C;
+font-size: 16px;
+font-weight: 700;
+}
+
+.features-button{
+    background: #E02C6D;
+    border: none;
+    color: #FFF;
+}
+
+#features-btn{
+    display: inline-flex;
+padding: 10px 24px;
+align-items: flex-start;
+gap: 8px;
+align-items: center;
+}
+
+/* footer section started */
+
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #0A0826;
+    margin-top: 100px;
+   
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer .features-container .footer-intro h4{
+    color: #FFF;
+font-size: 1.5rem;
+font-weight: 700;
+}
+
+footer .features-container .footer-intro h6{
+    color: #D9DBE1;
+font-family: Manrope;
+font-size: 14px;
+font-weight: 700;
+}
+
+
+.footer-intro{
+    color: #FFF;
+}
+.footer-icon{
+    display: flex;
+    gap: 15px;
 }
